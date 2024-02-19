@@ -17,15 +17,31 @@
 - Restore Books
 - Get list loan books
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Requirement
 
-## Learning Laravel
+- PHP 8.2.0 (cli) (built: Dec  6 2022 15:31:23) (ZTS Visual C++ 2019 x64)
+  Copyright (c) The PHP Group
+  Zend Engine v4.2.0, Copyright (c) Zend Technologies
+- Composer version 2.5.8 2023-06-09 17:13:21
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework from putra.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Installation
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
+cp .env.example .env
+---
+---
+php artisan key:generate
+---
+---
+composer install
+---
+---
+php artisan migrate --seed
+---
+---
+php artisan serve
+---
 
 ## Laravel Sponsors
 
@@ -46,14 +62,6 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - **[Active Logic](https://activelogic.com)**
 - **[byte5](https://byte5.de)**
 - **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
 ## Security Vulnerabilities
 
