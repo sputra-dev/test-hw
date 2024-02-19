@@ -17,6 +17,10 @@
 - Restore Books
 - Get list loan books
 
+## Run Pre-Test
+
+- http://127.0.0.1:8000/looping
+
 ## Requirement
 
 - PHP 8.2.0 (cli) (built: Dec  6 2022 15:31:23) (ZTS Visual C++ 2019 x64)
